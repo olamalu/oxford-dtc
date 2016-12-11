@@ -1,0 +1,86 @@
+//Basic standard styling
+.navbar {
+	background-color: #032247;
+
+	a {
+		color: #ffffff;
+	}
+	.nav > li > a {
+		background-color: #1D9AB5;
+		&:hover {
+			background-color: #666666;
+		}
+	}
+}
+.dtc-program-wrapper {
+	float: right;
+	width: 15%;
+	max-height: 50px;
+	img {
+		height: 100%;
+		float: right;
+
+	}
+}
+.dtc-program {
+	display: none;
+	padding-top: 5px;
+	&.active {
+		display: block;
+	}
+	img {
+		height: 40px;
+	}
+}
+
+.photo {
+	padding: 30px 10% 10px 10%;
+}
+
+.section {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	&.background-grey {
+		background-color: #eeeeee;
+		padding: 10px;
+	}
+}
+.panel {
+	border-radius: 0;
+}
+.panel-info > .panel-heading {
+	background: #1D9AB5;
+	color: #FFFFFF;
+}
+footer {
+	background-color: #032247;
+	width: 100%;
+	padding: 20px;
+	color: #ffffff;
+}
+
+//Improve the way lists are displayed
+.nav-tabs {
+	> li > a {
+		border-radius: 0;
+		background-color: #eee;
+		color: #666;
+		&:hover, &:focus {
+			background-color: #cbcbcb;
+		}
+	}
+	> li.active > a, > li.active a:focus, > li.active a:hover {
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+		padding: 8px 15px 8px 25px;
+		background-color: #e50c65;
+		color: #ffffff;
+	}
+}
+.tab-content {
+	background-color: #eeeeee;
+	padding: 10px;
+	min-height: 100px;
+}
+.list-group {
+	border-radius: 0;
+}
